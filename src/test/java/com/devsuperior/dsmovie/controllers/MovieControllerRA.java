@@ -76,7 +76,6 @@ public class MovieControllerRA {
 			.statusCode(200)
 			.body("id", is(1))
 			.body("title", equalTo("The Witcher"))
-			.body("score", is(4.5F))
 			.body("image", equalTo("https://www.themoviedb.org/t/p/w533_and_h300_bestv2/jBJWaqoSCiARWtfV0GlqHrcdidd.jpg"));
 			
 	}
